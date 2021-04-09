@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoreConstantInTheMiddle" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N801" />
+          <option value="N803" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="float.__getitem__" />
+          <option value="int.__getitem__" />
+          <option value="str.__truediv__" />
+          <option value="str.__sub__" />
+          <option value="numbers.mod1" />
+          <option value="inherit_zadacha_human_student_worker.task1_test.task1" />
+          <option value="str.login" />
+          <option value="str.csv" />
+          <option value="str.__setitem__" />
+          <option value="datetime.datetime.__truediv__" />
+          <option value="datetime.date.today" />
+          <option value="tuple.T" />
+          <option value="tuple.__sub__" />
+          <option value="mysql.connector" />
+          <option value="list.read" />
+          <option value="str.attrs" />
+          <option value="object.insert" />
+          <option value="list.executemany" />
+          <option value="list.add" />
+          <option value="list.text" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
